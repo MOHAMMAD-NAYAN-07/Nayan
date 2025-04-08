@@ -1,0 +1,9 @@
+{
+  "name": "Nayan-Bot",
+  "version": "5.2.3",
+  "description": "This update includes new commands and fixes.",
+  "new command": ["hack", "autoleave", "antichange"],
+  "update": ["Improved group management", "Fixed token bug", "Optimized performance"],
+  "owner": "Mohammad Nayan (wa.me/+8801615298449)",
+  "main": "https://github.com/your-username/your-repo"
+}
