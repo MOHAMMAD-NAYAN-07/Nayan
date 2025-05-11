@@ -4,5 +4,5 @@
   "sim": "http://65.109.80.126:20392",
   "gemini": "https://nayan-gemini-api-688r.onrender.com",
   "gpt4": "https://nayan-gpt4-202m.onrender.com",
-  "down_stream": "http://67.220.85.146:6527"
+  "down_stream": "http://67.220.85.157:6472"
 }
