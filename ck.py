@@ -9,7 +9,7 @@ sys.path.append(os.path.dirname(__file__))
 
 # enc.so import করা
 try:
-    import enc  # enc.cpython-312-x86_64-linux-gnu.so
+    import ck  # enc.cpython-312-x86_64-linux-gnu.so
 except ImportError:
     print("❌ enc module not found. Make sure .so file is in the same folder.")
     sys.exit(1)
