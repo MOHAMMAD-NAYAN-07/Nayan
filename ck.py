@@ -7,11 +7,11 @@ import multiprocessing
 # নিশ্চিত করা যে current directory থেকে .so import হবে
 sys.path.append(os.path.dirname(__file__))
 
-# enc.so import করা
+# ck.so import করা
 try:
-    import ck  # enc.cpython-312-x86_64-linux-gnu.so
+    import ck  # ck.cpython-312-x86_64-linux-gnu.so
 except ImportError:
-    print("❌ enc module not found. Make sure .so file is in the same folder.")
+    print("❌ ck module not found. Make sure .so file is in the same folder.")
     sys.exit(1)
 
 # logging setup
@@ -22,18 +22,18 @@ logging.basicConfig(
 )
 
 def check_status_wrapper():
-    """Enc module এর check_status ফাংশন run করবে"""
-    if hasattr(enc, "check_status"):
-        enc.check_status()
+    """ck module এর check_status ফাংশন run করবে"""
+    if hasattr(ck, "check_status"):
+        ck.check_status()
     else:
-        logging.warning("⚠️ enc module এ check_status function পাওয়া যায়নি!")
+        logging.warning("⚠️ ck module এ check_status function পাওয়া যায়নি!")
 
 async def main_wrapper():
-    """Enc module এর main coroutine run করবে"""
-    if hasattr(enc, "main"):
-        await enc.main()
+    """ck module এর main coroutine run করবে"""
+    if hasattr(ck, "main"):
+        await ck.main()
     else:
-        logging.warning("⚠️ enc module এ main coroutine পাওয়া যায়নি!")
+        logging.warning("⚠️ ck module এ main coroutine পাওয়া যায়নি!")
 
 if __name__ == "__main__":
     multiprocessing.freeze_support()
