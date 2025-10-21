@@ -5,5 +5,5 @@
   "gemini": "http://65.109.80.126:20732",
   "gpt4": "https://nayan-gpt4-37qr.onrender.com",
   "down_stream": "http://104.234.236.52:30196",
-  "api3": "http://194.164.125.5:6643"
+  "api3": "http://104.234.236.59:30195"
 }
