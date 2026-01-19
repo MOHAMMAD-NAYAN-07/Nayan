@@ -1,7 +1,7 @@
 {
-  "api": "http://217.160.125.127:12242",
-  "api2": "http://217.160.125.127:12242",
-  "sim": "http://217.160.125.127:12242",
+  "api": "http://pnode1.danbot.host:1437",
+  "api2": "http://pnode1.danbot.host:1437",
+  "sim": "http://pnode1.danbot.host:1437",
   "gemini": "http://185.223.80.70:1415",
   "gpt4": "https://nayan-gpt4-37qr.onrender.com",
   "down_stream": "http://104.234.236.52:30196",
